@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Session Test Automation Suite" duration-ms="14803" started-at="2020-09-07T17:19:54Z" finished-at="2020-09-07T17:20:08Z">
+    <groups>
+      <group name="title">
+        <method signature="Yokologin.gettitle()[pri:2, instance:testng.Yokologin@4f9a3314]" name="gettitle" class="testng.Yokologin"/>
+        <method signature="Yokologin.url()[pri:1, instance:testng.Yokologin@4f9a3314]" name="url" class="testng.Yokologin"/>
+      </group> <!-- title -->
+      <group name="login">
+        <method signature="Yokologin.login()[pri:3, instance:testng.Yokologin@4f9a3314]" name="login" class="testng.Yokologin"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Different testng Feature Test" duration-ms="14803" started-at="2020-09-07T17:19:54Z" finished-at="2020-09-07T17:20:08Z">
+      <class name="testng.Yokologin">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testng.Yokologin@4f9a3314]" name="Setup" is-config="true" duration-ms="11855" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="url()[pri:1, instance:testng.Yokologin@4f9a3314]" name="url" duration-ms="1006" started-at="2020-09-07T22:50:06Z" finished-at="2020-09-07T22:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="gettitle()[pri:2, instance:testng.Yokologin@4f9a3314]" name="gettitle" duration-ms="44" started-at="2020-09-07T22:50:07Z" finished-at="2020-09-07T22:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method status="PASS" signature="login()[pri:3, instance:testng.Yokologin@4f9a3314]" name="login" duration-ms="167" started-at="2020-09-07T22:50:07Z" finished-at="2020-09-07T22:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:testng.Yokologin@4f9a3314]" name="logout" duration-ms="1169" started-at="2020-09-07T22:50:07Z" depends-on-methods="testng.Yokologin.login" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Teardown()[pri:5, instance:testng.Yokologin@4f9a3314]" name="Teardown" duration-ms="332" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testng.Yokologin -->
+      <class name="testng.TestNgBasics">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testng.TestNgBasics@1b68b9a4]" name="launchbrowser" is-config="true" duration-ms="5" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testng.TestNgBasics@1b68b9a4]" name="login" is-config="true" duration-ms="0" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gettitle()[pri:0, instance:testng.TestNgBasics@1b68b9a4]" name="gettitle" duration-ms="10" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testng.TestNgBasics@1b68b9a4]" name="logout" is-config="true" duration-ms="0" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:testng.TestNgBasics@1b68b9a4]" name="browserclose" is-config="true" duration-ms="1" started-at="2020-09-07T22:49:54Z" finished-at="2020-09-07T22:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testng.TestNgBasics -->
+      <class name="testng.InvocationCountTest">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="3" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="2" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="2" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="2" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="1" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="0" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="1" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="0" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="1" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3b2c72c2]" name="sum" duration-ms="0" started-at="2020-09-07T22:50:08Z" finished-at="2020-09-07T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- testng.InvocationCountTest -->
+    </test> <!-- Different testng Feature Test -->
+  </suite> <!-- TestNG Session Test Automation Suite -->
+</testng-results>
