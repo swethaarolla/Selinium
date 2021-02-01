@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DynamicChangingElements {
 
 	public static void main(String[] args) throws InterruptedException {
+		//chromerdriver calling
 		System.setProperty("webdriver.chrome.driver", "D:\\Swetha_2211\\workspace\\chromedriver.exe");
 	    WebDriver driver=new ChromeDriver();
 	    driver.manage().window().maximize();
